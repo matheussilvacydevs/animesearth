@@ -33,7 +33,7 @@
         android:shadowDx="0.0"
         android:shadowDy="2.0"
         android:shadowRadius="8.0"
-        android:src="@mipmap/eula"
+        android:src="@mipmap/eulaimg"
         android:visibility="visible"
         app:civ_border_color="#ACD0E9"
         app:civ_border_overlay="true"

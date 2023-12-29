@@ -33,7 +33,7 @@
         android:shadowDx="0.0"
         android:shadowDy="2.0"
         android:shadowRadius="8.0"
-        android:src="@mipmap/eula"
+        android:src="@mipmap/eulaimg"
         android:visibility="visible"
         app:civ_border_color="#ACD0E9"
         app:civ_border_overlay="true"
@@ -58,8 +58,8 @@
         app:layout_constraintTop_toBottomOf="@+id/imgsplash" />
 
 
-
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/init"
             android:layout_width="260dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
