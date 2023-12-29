@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcomeEula">Bem Vindos ao Animes Earth</string>
+    <string name="accept_permissions">Aceita Nossos Termos</string>
+    <string name="Iniciar">Entrar</string>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EulaActivity">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/eulatxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center_horizontal"
+        android:text="@string/welcomeEula"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:fontFamily="@font/enriqueta_bold"
+        app:layout_constraintBottom_toTopOf="@+id/imgsplash"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgsplash"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="104dp"
+        android:elevation="2dp"
+        android:scaleType="centerCrop"
+        android:shadowColor="#FF0000"
+        android:shadowDx="0.0"
+        android:shadowDy="2.0"
+        android:shadowRadius="8.0"
+        android:src="@mipmap/eula"
+        android:visibility="visible"
+        app:civ_border_color="#ACD0E9"
+        app:civ_border_overlay="true"
+        app:civ_border_width="3dp"
+        app:civ_circle_background_color="#FFACD0E9"
+        app:layout_constraintDimensionRatio="4:3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="236dp"
+        android:text="@string/accept_permissions"
+        android:linksClickable="true"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgsplash" />
+
+
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/material_on_background_emphasis_high_type"
+            android:text="@string/Iniciar"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.523"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkbox" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

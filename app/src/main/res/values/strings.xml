@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Animes Eart</string>
+    <string name="welcomeEula">Bem Vindos ao Animes Earth</string>
+    <string name="accept_permissions">Aceita Nossos Termos</string>
+    <string name="Iniciar">Entrar</string>
+</resources>
